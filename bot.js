@@ -21,7 +21,7 @@ const http = require('http');
 const express = require('express');
 const app = express();
 app.get("/", (request, response) => {
-  console.log("Klaxs12-dm-bot | Hostlandı");
+  console.log("ALW1N DEVELOPMENT");
   response.sendStatus(200);
 });
 app.listen(8000);
@@ -137,5 +137,5 @@ client.login(ayarlar.token);
 //----------botu sese sokma--------------//
 
 client.on('ready', ()=>{
-client.channels.get('1180929692912599185').join()
+client.channels.get('1257982506226155520').join()
 })
